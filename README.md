@@ -7,6 +7,7 @@
 - 不用循环生成100长度都为1的数组,详见[es6](http://es6.ruanyifeng.com/#docs/array#Array-from)
 
 ```
+new Array(100).fill(1)
 Array.from({length: 1}, () => 1)
 Array.from({length: 1}).map(() => 1)
 ```
